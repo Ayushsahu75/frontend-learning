@@ -1,0 +1,19 @@
+*{
+   margin: 0;
+    
+}
+.first{
+    display: inline-block;
+    background-color: green;
+    width: 35vw;
+    height: 100vh;
+    margin-right: 62vh;
+}
+.second{
+    display: inline-block;
+    background-color: rgb(242, 117, 8);
+    width: 34vw;
+    height: 100vh;
+}
+
+

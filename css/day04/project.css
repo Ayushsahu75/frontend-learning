@@ -1,0 +1,40 @@
+body{
+    background-color: aqua;
+}
+.class{
+    background-color: chartreuse;
+    border-style: solid;
+    border-width: 10px;
+    border-radius: 10px;
+    margin: 10px 30vw 10px 30vw;
+    padding: 5px 20px;
+    text-align: center;
+}
+h2{
+    color: rgb(118, 24, 110);
+   
+}
+
+.class:hover {
+   color: blue;
+   transform: scale(1.2);
+    background-color: pink;}
+
+.class:hover h3{
+    color: azure;
+}
+.class:hover p{
+    color: cadetblue;
+ }
+ .class:hover h2{
+    color: rgb(52, 201, 201);
+}
+ul{
+    border-style: double;
+    border-color: rgb(27, 39, 35);
+    border-width: 10px ;
+    margin: 10px 30px 10px 50px;
+    text-align: center;
+    background-color: aliceblue;
+    padding: 20px;
+}

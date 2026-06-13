@@ -1,0 +1,48 @@
+.container{
+    background-color: aqua;
+    height: 600px;
+    width: 800px;
+  display: flex;
+  justify-content: center;
+  
+  
+}
+.box{
+    height: 100px;
+    width: 100px;
+    
+   
+
+  
+}
+.box1{
+    background-color: red ;
+    /* order: 5; */
+    /* order mtlb order lgane pr box ki position change kr skte h */
+     
+    
+    /* align-self: self-end; */
+      /* align-self- ye tb lgate h jb box center me ho
+                     or isse box ko move kre skte h
+        like-- align-self: self-start;
+               align-self: self-end; etc */
+}
+.box2{
+    background-color: green;
+    /* flex-grow: 1; */
+    /* flex-grow mtlb jitni bhi space bachi h container me ye cover kr leta h  */
+
+}
+.box3{
+    background-color: yellow;
+    /* flex-shrink: 2; */
+    /* flex-shrink: mtlb display ko chota krenge toh box speed se chota hoga as compare to another box */
+    
+       flex: 2          2            200px;
+    /* flex: flex_grow  flex-shrink  flex-basis
+     short me likh skte h */
+}
+.box4{
+    background-color: orange;
+    /* flex-basis: 300px; */
+}

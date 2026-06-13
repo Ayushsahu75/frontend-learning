@@ -1,0 +1,21 @@
+li{
+    color: rgb(31, 117, 203);
+    background-color: aqua;
+    
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   
+}
+h1{
+   color: #882f2f;
+   border-color: aqua;
+   font-size: 50px;
+}c
+p{
+    color: hsl(100, 57%, 49%);
+}
+div{
+    background-image: url(./IMG_6474.jpg);
+    background-size: contain;
+  background-repeat: inherit;
+  
+}

@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+}
+.first, .third{
+    display: inline-block;
+border-style: solid;
+    border-color: black;
+    height: 50vh;
+    width: 30vw;
+    background-color: aquamarine;
+    
+}
+.second, .fourth{
+    display: inline-block;
+    border-style: solid;
+        border-color: black;
+        height: 50vh;
+        width: 60vw;
+        background-color: aquamarine;
+        margin-left: 10vh;
+       
+}
+.first, .second{
+    margin-bottom: 10vh;
+}

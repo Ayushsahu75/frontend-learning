@@ -1,0 +1,158 @@
+*{
+    margin: 0%;
+}
+main{
+    background-color: antiquewhite;
+    background-size: 90%;
+    margin-left: 30px;
+   padding: 20px 40px ;
+    margin-right: 30px;
+    padding-top: 10px;
+  
+}
+
+.card{
+    display: inline-block;
+    margin-left: 10px;
+    margin-top: 10px;
+    background-color: rgb(229, 221, 221);
+    padding: 10px;
+    border-radius: 20px;
+    cursor: pointer;
+    visibility: visible;
+}
+.card:hover{
+    background-color: rgb(173, 178, 178);
+    
+}
+.box{
+    display: inline-block;
+}
+.restu {
+    position: relative;
+}
+.rest{
+    position: relative;
+    margin-top: 5px;
+    margin-left: auto;
+}
+.off{
+    display: inline-block;
+    position: relative;
+    bottom: 40px;
+    left: 20px;
+    font-style: italic;
+   font-size: large;
+    background-color: rgb(177, 57, 57);
+    color: rgb(181, 189, 189);
+    padding: 3px;
+  
+}
+.address{
+    position: relative;
+    margin-top: 5px;
+    margin-left: auto;
+}
+.img{
+    height: 200px;
+    width: 300px;
+    border-radius: 20px;
+}
+.resturant{
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px ;
+}
+.rating{
+    background-color: rgb(30, 146, 30);
+    height: 20px;
+    width: 30px;
+    color: aliceblue;
+    border-radius: 8px;
+  padding: 5px;
+
+   
+   position: absolute;
+    right: 10px;
+}
+.price{
+    position: absolute;
+    right: 10px;
+}
+.distance{
+    position: absolute;
+    right: 10px;
+}
+.food{
+      color: rgb(121, 117, 117);
+    
+}
+.add{
+    color: rgb(127, 125, 125);
+}
+.first, .secon{
+    margin-left: 200px;
+    
+}
+.brand{
+    color: rgb(214, 22, 22);
+    font-weight: bold;
+    margin-right: 50px;
+    font-size: 40px;
+
+}
+.search{
+    width: 200px;
+    height: 25px;
+    position: relative;
+    bottom: 5px;
+}
+.log{
+    margin-left: 40px;
+}
+.button{
+    height: 30px;
+    width: 60px;
+    
+    position: relative;
+    bottom: 5px;
+    background-color: white;
+    border: none;
+}
+.head{
+    background-color: rgb(227, 187, 187);
+    
+}
+.img1, .img2, .img3{
+    height: 40px;
+    border-radius: 50%;
+    padding: 7px ;
+      background-color: aqua;
+}
+.dine{
+    position: relative;
+    bottom: 15px;
+    font-size: 15px;
+    left: 2px;
+    color: rgb(108, 99, 99);
+}
+.delivery{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.second{
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    position: sticky;
+    top: 0px;
+    background-color: white;
+    padding-left: 50px;
+
+    
+}
+.third{
+    height: 500px;
+    background-color: rgb(226, 226, 234);
+    margin: 30px;
+}

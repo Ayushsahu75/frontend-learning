@@ -1,0 +1,36 @@
+.container{
+    background-color: aqua;
+    margin-top: 300px;
+    margin-left: 200px;
+}
+.box{
+    background-color: rgb(227, 141, 36);
+    width: 10vw;
+    height: 10vh;
+    display: inline-block;
+}
+.box1{
+    background-color: red;
+   
+}
+.box2{
+    background-color: blue;
+    position: fixed;
+    /* position: relative- box ki position shift kr skte h 
+    position: static - box ki position shift nhi kr skte h 
+      position: absolute - absolute apni original position chord deta h 
+        position: sticky - mtlv apne box me move kr skt H.
+        position: fixed; - position fixed ho jati h  */
+
+  top: 10px;
+  left: 10px;
+   
+
+
+}
+.box3{
+    background-color: blueviolet;
+  
+.box4{
+    background-color: orange;
+}

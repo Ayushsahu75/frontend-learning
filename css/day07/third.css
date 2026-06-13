@@ -1,0 +1,26 @@
+.class1{
+
+    width: 200px;
+    height: auto;
+    float: left;
+    margin: 10px;
+
+    float: left;
+    
+    
+}
+
+.con{
+    height: 100%;
+    width: 700px;
+    background-color: antiquewhite;
+    padding-left: 10px;
+   
+}
+.class2{
+    width: 200px;
+    height: auto;
+    margin: 10px;
+    float: right;
+    padding-top: 10px ;
+}

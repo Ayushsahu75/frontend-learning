@@ -1,0 +1,75 @@
+h2{
+    background-color: blueviolet;
+    width: 300px;
+    border-style: dashed;
+    border width: 10px;
+
+}
+
+ul{
+    color: antiquewhite;
+    height: 20vw;
+    /* vw mtlb box ki height view weight me  */
+    width: 50vw;
+    background-color: black;
+    border-width: 5px;
+    border-color: aquamarine;
+    border-style: double;
+    padding: 8vh;
+    /* padding mtlb border or contain ke beach ki space*/
+    border-radius: 20px;
+   /* border radius mtlb border ke edges ko circle type krna*/
+}
+p{
+    background-color: aqua;
+    width: 50dvh;
+    border-width: 5px;
+    border-style: groove;
+    border-color: black;
+    padding: 9px; 
+    
+}
+h3{
+    border: 5px black solid;
+    /* short cut me aaise likhte h 
+    border: width colour style */
+    
+    border-left-width: 10px ;
+    border-right-color: blue;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 100px;
+    padding-top: 100px;
+   }
+  h4{
+    border-color: aqua;
+    border-style: solid;
+    border-width: 10px 20px;
+    /* agar width double dalenge toh
+    first (10px)- left or right
+    second(29px)- upper or lower
+       ko show karenge. */
+       padding: 10px 20px;
+  }
+  h5{
+    border-style: double;
+    border-color: blue;
+    border-width: 10px 20px 30px 40px;
+    padding: 10px 20px 30px 40px;
+  }
+  ol{
+    border-style: solid;
+    border-width: 11px;
+    border-radius: 10px;
+    border-color: rgb(227, 146, 146);
+    color: aqua;
+    background-color: black;
+    padding: 10px 10px 10px 10px;
+    margin: 100px;
+    
+    /* margin se distance mil jati h two contain ke bech ki */
+    /* margin ko bhi use kr skte h jaise 
+    margin left 
+    margin right etc
+    */
+  }

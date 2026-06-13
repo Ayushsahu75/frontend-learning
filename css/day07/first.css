@@ -1,0 +1,30 @@
+.container{
+    background-color: aquamarine;
+    margin-top: 100px;
+    margin-left: 100px;
+    
+}
+.box{
+    display: inline-block;
+    height: 150px;
+    width: 150px;
+    top: 70px;
+    left: 70px;
+}
+.box1{
+    background-color: red;
+    position: relative;
+    left: 100px;
+    z-index: 2;
+}
+.box2{
+    background-color: blue;
+    position: relative;
+    z-index: -1;
+}
+.box3{
+    background-color: yellow;
+}
+.box4{
+    background-color: pink;
+}

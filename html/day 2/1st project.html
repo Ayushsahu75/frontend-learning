@@ -1,0 +1,68 @@
+<!-- <h1>HTML lists Examples</h1>
+<p>in this example , we will learn about ordered and unorderd listalong with other basic HTML tags</p>
+<hr>
+<h2>Steps to create a webside</h2>
+<ol>
+    <li>learn HTML and css</li>
+   <li> practice with small projects</li>
+   <li>understand java script for interactivity</li>
+   <li> explore advance topic like frame work</li>
+   <li>deploy your webside on a hostin platform</li>
+
+</ol>
+<hr>
+<h2>Popular Web Technology</h2>
+<ul style="list-style-type: square;">
+  <li> HTMl</li>
+  <li>css</li>
+  <li>javascript</li>
+<li>REACT</li>
+<LI>NODE.JS</LI>
+
+</ul>
+<hr> -->
+
+<!-- <html>
+<body>
+
+<h2>An unordered HTML</h2>
+
+<ul id="myList"></ul>
+
+<script>
+
+let ol = document.getElementById("myList");
+
+for(let i = 1; i <= 10; i++){
+    let li = document.createElement("li");
+    li.textContent = i;
+    ol.appendChild(li);
+}
+
+</script>
+
+</body>
+</html> -->
+
+<html>
+<body>
+
+<h2>Unordered List</h2>
+
+<ul id="myList"></ul>
+
+<script>
+
+let ul = document.getElementById("myList");
+
+for(let i = 1; i <= 10; i++){
+    let li = document.createElement("li");
+    let letter = String.fromCharCode(96 + i);
+    li.textContent = letter + ". " + i;
+    ul.appendChild(li);
+}
+
+</script>
+
+</body>
+</html>

@@ -1,0 +1,25 @@
+h1{
+    background-color: aqua;
+}
+*{
+    margin: 0;
+    margin-right: 0vw;
+}
+.first, .third{
+    display: inline-block;
+    background-color: rgb(243, 23, 23);
+    height: 40vh;
+    width: 25vh;
+}
+.second, .fourth{
+    display: inline-block;
+    background-color: rgb(237, 19, 19);
+    height: 40vh;
+    width: 60vh;
+}
+.second, .fourth{
+    margin-left: 15vw;
+}
+.third, .fourth{
+   margin-top: 20vh;
+}

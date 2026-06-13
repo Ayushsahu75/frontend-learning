@@ -1,0 +1,19 @@
+h1{
+    font-weight: 100;
+    font-size: large;
+    font-style: normal;
+    font-size: 5em;
+    font-size: 50rem;
+    //em mtlv parent font ke hissaab se size-adjust: 
+    //rem mtlv html font ke hissab se size-adjust: ;
+}
+p{
+    letter-spacing: 0cap;
+    letter-spacing: 0ch;
+    word-spacing: 5ch;
+    text-transform:lowercase ;
+    font-variant: small-caps;
+  font-stretch: extra-expanded;
+  
+    
+}

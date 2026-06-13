@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Basic Form</title>
+    <style>
+        #result {
+            display: none;
+            background: #f0f0f0;
+            padding: 15px;
+            margin-top: 20px;
+            border-left: 4px solid green;
+        }
+        #result h3 {
+            margin-top: 0;
+            color: green;
+        }
+        #result p {
+            margin: 5px 0;
+        }
+    </style>
+</head>
+<body>
+
+    <h2>Simple Form</h2>
+
+    <form id="myForm">
+        
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name"><br><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email"><br><br>
+
+        <label for="password">Password:</label><br>
+        <input type="password" id="password" name="password"><br><br>
+
+        <label>Gender:</label><br>
+        <input type="radio" name="gender" value="male"> Male
+        <input type="radio" name="gender" value="female"> Female<br><br>
+
+        <label>Hobbies:</label><br>
+        <input type="checkbox" name="hobbies" value="reading"> Reading
+        <input type="checkbox" name="hobbies" value="sports"> Sports<br><br>
+
+        <label for="country">Country:</label><br>
+        <select id="country" name="country">
+            <option value="india">India</option>
+            <option value="usa">USA</option>
+            <option value="uk">UK</option>
+        </select><br><br>
+
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message"></textarea><br><br>
+
+        <input type="submit" value="Submit">
+    </form>
+
+    <!-- Yahan data show hoga -->
+    <div id="result">
+        <h3>✅ Submitted Data:</h3>
+        <p><strong>Name:</strong> <span id="show-name"></span></p>
+        <p><strong>Email:</strong> <span id="show-email"></span></p>
+        <p><strong>Password:</strong> <span id="show-password"></span></p>
+        <p><strong>Gender:</strong> <span id="show-gender"></span></p>
+        <p><strong>Hobbies:</strong> <span id="show-hobbies"></span></p>
+        <p><strong>Country:</strong> <span id="show-country"></span></p>
+        <p><strong>Message:</strong> <span id="show-message"></span></p>
+    </div>
+
+    <script>
+        document.getElementById("myForm").addEventListener("submit", function(e) {
+            e.preventDefault();
+
+            // Values uthao
+            const name     = document.getElementById("name").value;
+            const email    = document.getElementById("email").value;
+            const password = document.getElementById("password").value;
+            const message  = document.getElementById("message").value;
+            const country  = document.getElementById("country").value;
+
+            // Radio - jo checked ho uski value lo
+            const genderEl = document.querySelector('input[name="gender"]:checked');
+            const gender   = genderEl ? genderEl.value : "Not selected";
+
+            // Checkbox - multiple ho sakti hain, sab collect karo
+            const hobbiesChecked = document.querySelectorAll('input[name="hobbies"]:checked');
+            const hobbies = hobbiesChecked.length > 0
+                ? [...hobbiesChecked].map(h => h.value).join(", ")
+                : "None";
+
+            // Result div mein daalo
+            document.getElementById("show-name").textContent     = name;
+            document.getElementById("show-email").textContent    = email;
+            document.getElementById("show-password").textContent = password;
+            document.getElementById("show-gender").textContent   = gender;
+            document.getElementById("show-hobbies").textContent  = hobbies;
+            document.getElementById("show-country").textContent  = country;
+            document.getElementById("show-message").textContent  = message;
+
+            // Result box dikhao
+            document.getElementById("result").style.display = "block";
+        });
+    </script>
+
+</body>
+</html>

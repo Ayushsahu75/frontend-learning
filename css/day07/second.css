@@ -1,0 +1,9 @@
+.container{
+    height: 200px;
+    width: 200px;
+    background-color: antiquewhite;
+    overflow: auto;
+    /* overflow: hidden; - box ke bhar jo bhi contain hoga bo hiddern ho jaye ga
+        overflow: scroll; - isse scroll hoga contain 
+        overflow: visible - sb visible hoga box ke bhar bhi */
+}
